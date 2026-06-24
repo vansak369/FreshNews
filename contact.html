@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Fresh News</title>
+<meta name="description" content="Get in touch with the Fresh News newsroom — tips, corrections, advertising and general inquiries.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="masthead">
+ 
+  <div class="masthead-main container">
+    <h1 class="wordmark">today<span class="dot">●</span>NEWS</h1>
+    <span class="tagline">DAILY WITH FRESH NEWS.</span>
+  </div>
+  <nav class="nav container linestyle" aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+    </ul>
+    <span class="nav-tag">Trusted by 40,000 morning readers</span>
+  </nav>
+</header>
+
+
+<main id="main">
+
+  <section class="page-intro container">
+    <span class="tag">Contact</span>
+    <h2>Have a tip, a correction, or just a question?</h2>
+    <p class="lead">Reach the desk that fits — or send a general note and we'll route it. We read everything; we can't promise a reply to everything.</p>
+  </section>
+
+  <section class="contact-grid container">
+
+    <!-- Info -->
+    <div>
+      <div class="section-head" style="margin-bottom:0;">
+        <h3>Reach The Newsroom</h3>
+      </div>
+      <div class="info-list">
+        <div class="row">
+          <span class="label">General Inquiries</span>
+          <a class="value" href="mailto:hello@freshnews.example">hello@freshnews.example</a>
+        </div>
+        <div class="row">
+          <span class="label">News Tips</span>
+          <a class="value" href="mailto:tips@freshnews.example">tips@freshnews.example</a>
+        </div>
+        <div class="row">
+          <span class="label">Advertising</span>
+          <a class="value" href="mailto:ads@freshnews.example">ads@freshnews.example</a>
+        </div>
+        <div class="row">
+          <span class="label">Phone</span>
+          <a class="value" href="tel:+855123456789">+855 12 345 6789</a>
+        </div>
+        <div class="row">
+          <span class="label">Newsroom Address</span>
+          <span class="value">14 Street 240, Phnom Penh, Cambodia</span>
+        </div>
+        <div class="row">
+          <span class="label">Desk Hours</span>
+          <span class="value">Mon – Fri, 7:00 — 19:00 (ICT)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div>
+      <div class="section-head" style="margin-bottom:0;">
+        <h3>Send a Message</h3>
+      </div>
+      <form style="margin-top:24px;" onsubmit="return false;" novalidate>
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="topic">This is about</label>
+          <select id="topic" name="topic">
+            <option>General inquiry</option>
+            <option>News tip</option>
+            <option>Correction request</option>
+            <option>Advertising</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <p class="form-note">This form is for demonstration only — no message is sent. Email us directly using the addresses on the left.</p>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+  </section>
+
+
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 Fresh News.</span>
+  <nav class="foot-links" aria-label="Footer">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</footer>
+
+</body>
+</html>
